@@ -1,0 +1,31 @@
+{
+  "name": "teen-devs-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeenDeveloperz/teendeveloperz-server.git"
+  },
+  "author": "Kingsley Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeenDeveloperz/teendeveloperz-server/issues"
+  },
+  "homepage": "https://github.com/TeenDeveloperz/teendeveloperz-server#readme",
+  "dependencies": {
+    "connect-mongo": "^2.0.1",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.8",
+    "path": "^0.12.7"
+  }
+}
